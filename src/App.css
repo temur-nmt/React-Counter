@@ -1,0 +1,42 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #242424;
+}
+
+h1 {
+  color:white;
+  text-align: center;
+
+}
+
+.counter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.count {
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #262626;
+  margin-block: 0 10px;
+  font-size: 2rem;
+}
+
+.counter-btn {
+  background-color: gray;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
